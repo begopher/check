@@ -1,4 +1,4 @@
-package check
+package valid
 
 func False[T any]() Predicate[T] {
 	return _false[T]{}

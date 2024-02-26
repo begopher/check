@@ -1,11 +1,11 @@
 package strings
 
 import (
-	"github.com/begopher/check"
+	"github.com/begopher/valid"
 	"unicode/utf8"
 )
 
-func More(runesNum int) check.Predicate[string] {
+func More(runesNum int) valid.Predicate[string] {
 	return more{runesNum}
 }
 

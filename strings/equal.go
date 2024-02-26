@@ -1,10 +1,10 @@
 package strings
 
 import (
-	"github.com/begopher/check"
+	"github.com/begopher/valid"
 )
 
-func Equal(many ...string) check.Predicate[string] {
+func Equal(many ...string) valid.Predicate[string] {
 	if len(many) == 0 {
 		panic("strings.Is: many cannot be empty")
 	}

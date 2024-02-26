@@ -1,3 +1,3 @@
-module github.com/begopher/check
+module github.com/begopher/valid
 
 go 1.20

@@ -1,4 +1,4 @@
-package check
+package valid
 
 func Negate[T any](rule Predicate[T]) Predicate[T] {
 	if rule == nil {

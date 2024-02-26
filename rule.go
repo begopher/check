@@ -1,4 +1,4 @@
-package check
+package valid
 
 func Rule[T any](err error, predicates ...Predicate[T]) Constraint[T] {
 	if err == nil {

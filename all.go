@@ -1,4 +1,4 @@
-package check
+package valid
 
 func All[T any](rules ...Predicate[T]) Predicate[T] {
 	for _, rule := range rules {

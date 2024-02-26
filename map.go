@@ -1,4 +1,4 @@
-package check
+package valid
 
 func Map[F, T any](mapping func(F) T, rule Predicate[T]) Predicate[F] {
 	if rule == nil {

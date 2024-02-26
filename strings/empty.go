@@ -1,10 +1,10 @@
 package strings
 
 import (
-	"github.com/begopher/check"
+	"github.com/begopher/valid"
 )
 
-func Empty() check.Predicate[string] {
+func Empty() valid.Predicate[string] {
 	return empty{}
 }
 

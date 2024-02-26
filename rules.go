@@ -1,4 +1,4 @@
-package check
+package valid
 
 func Rules[T any](many ...Constraint[T]) Constraint[T] {
 	for _, c := range many {
