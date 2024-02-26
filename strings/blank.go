@@ -12,7 +12,7 @@ func Blank() valid.Predicate[string] {
 type blank struct{}
 
 func (blank) Evaluate(value string) bool {
-	if value == strings.TrimSpace(value) {
+	if "" == strings.TrimSpace(value) {
 		return true
 	}
 	return false

@@ -10,7 +10,7 @@ func Empty() valid.Predicate[string] {
 
 type empty struct{}
 
-func (e empty) Evaluate(value string) bool {
+func (empty) Evaluate(value string) bool {
 	if value == "" {
 		return true
 	}
